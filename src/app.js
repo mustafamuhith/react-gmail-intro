@@ -11,8 +11,8 @@ import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 function App() {
   return (
     <div className="app">
-     <Header />
-     <LeftMenu />
+      <Header />
+      <LeftMenu />
       <main className="email-view">
         <nav className="email-toolbar">
           <ul>
