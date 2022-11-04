@@ -1,4 +1,16 @@
-email-content--header {
+
+
+.title {
+  padding: 1rem;
+}
+
+.title h1 {
+  padding-left: 56px;
+
+  font-weight: normal;
+}
+
+.email-content--header {
   padding: 0.5rem 1rem;
 
   display: grid;

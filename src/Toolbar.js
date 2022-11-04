@@ -1,12 +1,14 @@
-import './styles/nav.css'
-
 import backArrow from './assets/icons/back-arrow.png'
+
 import downloadButton from './assets/icons/download-button.png'
+
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 
-function Nav() {
-  return (
-    <nav className="email-toolbar">
+import './Toolbar.css'
+
+function Toolbar () {
+    return (
+        <nav className="email-toolbar">
       <ul>
         <li>
           <img className="icon" src={backArrow} alt="reply button" />
@@ -25,7 +27,7 @@ function Nav() {
         <button>&gt;</button>
       </div>
     </nav>
-  )
+    )
 }
 
-export default Nav
+export default Toolbar
